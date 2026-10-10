@@ -6,3 +6,8 @@ if ! [[ "$INTERVAL" =~ ^[1-9][0-9]*$ ]]; then
   exit 1
 fi
 echo "Memantau setiap $INTERVAL detik. Tekan Ctrl+C untuk berhenti."
+
+while true; do
+  date '+%H:%M:%S'
+  sleep "$INTERVAL"
+done
