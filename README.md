@@ -22,3 +22,4 @@ Format: awalan/deskripsi-singkat (huruf kecil, kata dipisah tanda hubung)
 | docs/   | Perubahan dokumentasi                    | docs/panduan-instalasi  |
 | chore/  | Pemeliharaan tanpa mengubah perilaku     | chore/rapikan-gitignore |
 | hotfix/ | Perbaikan mendesak pada kondisi produksi | hotfix/gagal-start      |
+- monitoring.sh - memantau layanan secara berkala
